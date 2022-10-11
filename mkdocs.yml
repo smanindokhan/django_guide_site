@@ -1,0 +1,48 @@
+site_name: The All In One Documentation
+theme:
+  name: material
+  font:
+    code: Roboto Mono
+
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+  - offline
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.superfences 
+
+
+nav:
+    - Home: 'index.md'
+    - Django:
+        - 'Django Basics': 'django/django_basics.md'
+        - 'Urls': 'django/django_urls.md'
+        - 'Views': 'django/django_views.md'
+        - 'Apps': 'django/django_apps.md'
+        - 'Templates': 'django/django_templates.md'
+        - 'Models': 'django/django_models.md'
+        - 'Admin': 'django/django_admin.md'
+        - 'Forms': 'django/django_forms.md'
+        - 'Forms With Models': 'django/django_forms_with_models.md'
+        - 'Static Files': 'django/django_static.md'
+        - 'Paths & Checklists': 'django/django_checklist.md'
+
+copyright: Copyright &copy; Anindo Khan
+
