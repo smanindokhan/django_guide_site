@@ -44,6 +44,8 @@ nav:
         - 'Forms With Models': 'django/django_forms_with_models.md'
         - 'Static Files': 'django/django_static.md'
         - 'Paths & Checklists': 'django/django_checklist.md'
+    - Job Requirments:
+        - 'Typical Requirments': 'job_requirments/overview.md'
 
 copyright: Copyright &copy; Anindo Khan
 
